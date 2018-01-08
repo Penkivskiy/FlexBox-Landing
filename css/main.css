@@ -14,6 +14,7 @@ body {
 	align-items: center;
 	min-height: 600px;
     background: url(../image/main-bg.png) no-repeat center center;
+    background-color: rgba(255,20,204, 1);
     background-size: cover;
     position: relative;
 }
@@ -55,4 +56,39 @@ body {
 	padding: 10px 20px;
 	border-radius: 100px;
 	text-transform: uppercase;
+}
+.main_text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	position: relative;
+	text-align: center;
+
+	z-index: 2;
+}
+.main_text span {
+	display: inline-block;
+}
+.main_text h1 {
+	margin: 0.5rem;
+	font-size: 80px;
+}
+.main_text span::before {
+	display: inline-block;
+	content: '';
+	width: 20px;
+	height: 1px;
+	background-color: #fff;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.main_text span::after {
+	display: inline-block;
+	content: '';
+	width: 20px;
+	height: 1px;
+	background-color: #fff;
+	vertical-align: middle;
+	margin-left: 10px;
 }
