@@ -1,0 +1,2 @@
+git remote add origin https://github.com/Penkivskiy/FlexBox-Landing.git
+git push -u origin master
