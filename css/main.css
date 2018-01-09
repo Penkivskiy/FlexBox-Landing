@@ -48,7 +48,6 @@ body {
 	display: flex;
 	justify-content: space-around;
 	list-style: none;
-	margin-left: 30rem;
 }
 .menu_link {
 	color: #fff;
@@ -269,21 +268,66 @@ body {
 	background-color: #4000f5;
 	color: #fff;
 }
-
-
-
-
-.Rounded_Rectangle_1 {
-  background-color: #4000f5;
-  position: absolute;
-  left: 765px;
-  top: 2205px;
-  width: 190px;
-  height: 50px;
-  z-index: 138;
+.footer_wrap {
+	display: flex;
+	justify-content: center;
 }
-
-
+.footer {
+	height: 10vh;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer_menu {
+	width: 70%;
+}
+.footer_menu ul {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+}
+.footer_menu_link {
+	color: #4f4f6f;
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+.get_started_btn_footer {
+	margin-left: 60px;
+	background-color: #4000f5;
+	color: #fff;
+	border: 1px solid #4f4f6f;;
+	padding: 10px 20px;
+	border-radius: 100px;
+	text-transform: uppercase;
+	font-weight: 300;
+	transition: 0.5s;
+}
+.line {
+	display: block;
+	width: 90%;
+	height: 1px;
+	background-color: #333;
+	margin: 0 auto;
+}
+.legal {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.copy {
+	font-size: 1.4rem;
+	color: #6a6a77;
+}
+.social_links a{
+	color: #6a6a77;
+	font-size: 1.7rem;
+	display: inline-block;
+	margin-right: 1rem;
+}
 
 
 
