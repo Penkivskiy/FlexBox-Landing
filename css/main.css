@@ -48,11 +48,12 @@ body {
 	display: flex;
 	justify-content: space-around;
 	list-style: none;
+	margin-left: 30rem;
 }
 .menu_link {
 	color: #fff;
 	text-decoration: none;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 .get_started_btn {
 	margin-left: 60px;
@@ -225,6 +226,65 @@ body {
 	background-color: #4000f5;
 	color: #fff;
 }
+.call_to_action_overlay {
+	background-image: -moz-linear-gradient( 150deg, rgb(136,211,206) 0%, rgb(110,69,226) 100%);
+    background-image: -webkit-linear-gradient( 150deg, rgb(136,211,206) 0%, rgb(110,69,226) 100%);
+    background-image: -ms-linear-gradient( 150deg, rgb(136,211,206) 0%, rgb(110,69,226) 100%);
+}
+.call_to_action {
+	color: #fff;
+	text-align: center;
+	padding: 15rem;
+
+	background: url(../image/cta-bg.png) no-repeat center center;
+	background-size: cover;
+}
+.call_to_action span {
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+.call_to_action h5{
+	font-weight: 500;
+	margin: 1rem auto 2rem;
+	font-size: 5rem;
+}
+.cta-btn {
+	display: inline-block;
+	border: none;
+	background-color: #fff;
+	color: #9fa4af;
+	text-transform: uppercase;
+	font-size: 1.4rem;
+	font-weight: 600;
+	width: 20rem;
+	height: 5rem;
+	margin: 1rem;
+
+	border-radius: 10rem;
+	transition: 0.5s;
+}
+.cta-btn:hover {
+	cursor: pointer;
+	background-color: #4000f5;
+	color: #fff;
+}
+
+
+
+
+.Rounded_Rectangle_1 {
+  background-color: #4000f5;
+  position: absolute;
+  left: 765px;
+  top: 2205px;
+  width: 190px;
+  height: 50px;
+  z-index: 138;
+}
+
+
+
 
 
 
